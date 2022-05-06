@@ -1,0 +1,77 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("images/wp7161162-pc-4k-japan-anime-wallpapers.jpg");
+    background-size: 1280px;
+}*{
+     margin: 0;
+     padding: 0;
+ }
+
+.side{
+    position: absolute; top: 0px; left: 941px;
+    position: fixed;
+}
+
+img.sii{
+    width: 60px;
+}
+
+a:hover{
+    color: red;
+}
+
+li,a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ff748000;
+    border: solid 0px black;
+
+}
+li{
+    float: left;
+    padding: 20px;
+    border-right: 1px solid #f1f1f1;
+    height: 5px;
+}
+.reg{
+    position: absolute; top: 200px;
+}
+form{
+    text-align: center;
+    border: 0px solid black;
+    box-sizing: border-box;
+    margin-left: 255px;
+    height: 250px;
+
+    width: 480px;
+    background-color: white;
+
+}
+
+label, input, button{
+    margin: 5px;
+
+}
+
+label{
+    color: mediumpurple;
+}
+
+h2{
+    text-align: center;
+    background-color: white;
+    border: 0px black solid;
+    box-sizing: border-box;
+    width: 479.5px;
+    position: absolute; top: 171.5px; left: 255px;
+}
